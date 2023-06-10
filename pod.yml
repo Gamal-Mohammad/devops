@@ -8,3 +8,5 @@ spec:
   - conatiners:
       - name: lab1
         image: httpd
+        ports:
+                - containerPort: 80
