@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: lab1
+  labels:
+    app: test
+spec:
+  - conatiners:
+      - name: lab1
+        image: httpd
